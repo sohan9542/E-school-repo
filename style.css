@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    background: #E5E5E5!important;
+}
+a{
+    text-decoration: none!important;
+    color: black!important;
+}
+img{width: 100%;}
+
+
+:root{
+    --hd-clr: #F0FFF0;
+    --btn-clr: rgb(223, 57, 35);
+    --purple:#413960;
+    --footer: #282531;
+}
+
+ul li{
+    list-style-type: none;
+}
+.btn-orange{
+    background-color: var(--btn-clr)!important;
+    color: white!important;
+}
+.clr-orange{
+    color:  #FD511A;
+    font-size: 16px;
+}
+.color{
+    color: var(--btn-clr);
+}
+.btn{
+    padding: .6rem 1.3rem!important;
+    border-radius: 25px 25px!important;
+}
+
+/* navbar */
+nav{
+    background: var(--hd-clr);
+}
+.nav-link{
+    margin: 0 15px;
+}
+
+.navbar-brand{
+    width: 150px;
+}
+
+/* hero */
+#hero{
+    background: var(--hd-clr);
+}
+.hero{
+    padding: 4rem 0;
+}
+.large{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.hero p{
+    line-height: 2.4;
+}
+/* need */
+.need{
+    padding: 2rem 0;
+}
+.s-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--purple);
+}
+.s-card img{
+    width: 66px;
+    height: 85px;
+    margin-bottom: 20px;
+}
+.s-card p{
+    font-size: 14px;
+}
+
+/* courses */
+#courses{
+    padding: 50px 0;
+}
+.courses h2{
+    font-size: 2rem;
+    color: var(--purple);
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.card-title{
+    color: var(--purple);
+}
+.c-bottom{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.c-bottom img{
+    width: 18px;
+    height: 20px;
+    margin-right: 5px;
+   
+}
+.card{
+    overflow: hidden;
+}
+.card-img-set{
+    height: 220px;
+    overflow: hidden;
+}
+.card-img-top{
+    overflow: hidden;
+    transition: .4s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+/* testimonials */
+.testimonial{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-ts{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 700px;
+}
+.s-ts img{
+    width: 120px;
+}
+
+/* footer */
+#footer{
+    padding: 50px 0;
+    background-color: var(--footer);
+    color: white;
+}
+.footer h6{
+    font-weight: bold;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 300!important;
+}
+.copy{
+    margin-top: 20px;
+}
